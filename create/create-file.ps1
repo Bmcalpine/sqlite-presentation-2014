@@ -1,6 +1,6 @@
 $i = 1
 do {
-    python -m cProfile -o testing-stats create-filegdb.py
+    python -m cProfile -o testing-stats create-gdb.py -n -t -p
     $i++
 }
-until($1 -gt 10)
+until($i -gt 10)
