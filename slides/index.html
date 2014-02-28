@@ -38,16 +38,17 @@
 			<div class="slides">
 				<section>
 					<h1>Using SQLite?</h1>
-					<h3>Which geometry should you use.</h3>                    
+					<h3>Which geometry should you use?</h3>                    
 					<p>
-						<small>Created by <a href="">Jamie Phillips</a></small>
+						<small>Created by <a href="">Jamie Phillips</a>, <strong>GISi</strong></small>
 					</p>
                     <img width="666" height="205" src="images/exploits_of_a_mom.png" alt="XKCD Comic, Bobby Tables">
                     <p>
                         <small>Image credits: <a href="https://xkcd.com/327/">xkcd</a></small>
                     </p>
                     <aside class="notes">
-						Start off talking about how this is new and not well advertised. Ask how many knew about it.  Talk about what got me interested.  Co-worker brought it up as a way to make gp faster.    
+						Start off talking about how this is new and not well advertised. Ask how many knew about it.  Talk about what 
+                        got me interested.  Co-worker brought it up as a way to make gp faster.    
 					</aside>
 				</section>
 				<section>
@@ -58,14 +59,8 @@
 						<li>Cross-platform</li>
 					</ul>-->
 					 <aside class="notes">
-						Nothing really. Talk about why it is important, things such as faster queries over file gdb, acid compliance, full database.  
-					</aside>
-				</section>
-				
-				<section>
-					<h2>What's the big deal?</h2>
-					 <aside class="notes">
-						Talk about why it is important, things such as faster queries over file gdb, acid compliance, full database.  
+						Nothing really. Talk about why it is important, things such as faster queries over file gdb, acid compliance,  
+                        full database, Cross platform.  
 					</aside>
 				</section>
                 
@@ -76,7 +71,8 @@
 						<li class="fragment">Spatialite</li>
 					</ul>
                      <aside class="notes">
-						
+						Talk about ST_Geometry for working with Esri products, but if you want true cross-platform support then
+                        Spatialite is a great options or if you are working with non-Esri consumers.
 					</aside>
 				</section>
                 
@@ -84,12 +80,25 @@
 					<h2>Methodology</h2>
 					<ul>
 						<li class="fragment">Automated Scripts</li>
-						<li class="fragment">Spatialite</li>
+						<li class="fragment">cProfile to do the timing</li>
 					</ul>
                      <aside class="notes">
 						Created scripts to automate everything.  I did 10 runs on each type of performance factor.  I used cProfile to collect the data.
 					</aside>
 				</section>
+
+                <section>
+					<h2>About the data</h2>
+					<ul>
+						<li class="fragment">ST_Geometry</li>
+						<li class="fragment">Spatialite</li>
+					</ul>
+                     <aside class="notes">
+						Talk about ST_Geometry for working with Esri products, but if you want true cross-platform support then
+                        Spatialite is a great options or if you are working with non-Esri consumers.
+					</aside>
+				</section>
+
                  <!-- Results -->
 				<section>
 					<section>
