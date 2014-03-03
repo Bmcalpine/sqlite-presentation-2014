@@ -1,0 +1,89 @@
+Creation
+------------
+
+File1  7.9
+File2  9.2
+File3  8.1
+
+Sqlite1  5.1
+Sqlite2  5.0
+Sqlite3  5.6
+
+Spatialite1  9.9
+Spatialite2  8.0
+Spatialite3  8.1
+
+Loading Points
+-----------------
+
+File1  46.0
+File2  46.7
+File3  46.6
+
+Sqlite1  1168.8
+Sqlite2  1149.8
+Sqlite3  1059.3
+
+Spatialite1  1339.1
+Spatialite2  1058.2
+Spatialite3  1205.0
+
+Loading Lines
+-----------------
+
+File1  14.1
+File2  14.4
+File3  13.9
+
+Sqlite1  106.5
+Sqlite2  122.3
+Sqlite3  115.443
+
+Spatialite1  165.4
+Spatialite2  156.4
+Spatialite3  153.6
+
+Loading Polygons
+-----------------
+
+File1  8.0
+File2  7.7
+File3  7.7
+
+Sqlite1  7.5
+Sqlite2  7.5
+Sqlite3  10.2
+
+Spatialite1  7.6
+Spatialite2  7.6
+Spatialite3  7.6
+
+Select By Attributes
+--------------------
+
+File1  11.4
+File2  11.5
+File3  11.4
+
+Sqlite1  8.6
+Sqlite2  8.4
+Sqlite3  8.4
+
+Spatialite1  8.6
+Spatialite2  8.5
+Spatialite3  8.5
+
+Clip
+--------------------
+
+File1  23.4
+File2  23.6
+File3  23.2
+
+Sqlite1  38.8
+Sqlite2  38.3
+Sqlite3  37.7
+
+Spatialite1  38.5
+Spatialite2  38.0
+Spatialite3  37.5
