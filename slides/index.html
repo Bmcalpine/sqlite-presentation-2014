@@ -81,6 +81,7 @@
 					<ul>
 						<li class="fragment">Automated Scripts</li>
 						<li class="fragment">cProfile to do the timing</li>
+                        <li class="fragment">pstats to process the profile output</li>
 					</ul>
                      <aside class="notes">
 						Created scripts to automate everything.  I did 10 runs on each type of performance factor.  I used cProfile to collect the data.
@@ -103,13 +104,111 @@
 				<section>
 					<section>
 						<h2>File Geodatabase</h2>
-                        
+                         <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Creation</th>
+                                <th>Points</th>
+                                <th>Lines</th>
+                                <th>Polygons</th>
+                                <th>Select By Attributes</th>
+                                <th>Clip</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FileGdb</td>
+                                <td>8.4</td>
+                                <td>46.4</td>
+                                <td>14.1</td>
+                                <td>7.8</td>
+                                <td>11.4</td>
+                                <td>23.4</td>
+                            <tr>
+                      </tbody>
+                   </table>
 					</section>
 					<section>
 						<h2>SQLite</h2>
+                          <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Creation</th>
+                                <th>Loading Points</th>
+                                <th>Loading Lines</th>
+                                <th>Loading Polygons</th>
+                                <th>Select By Attributes</th>
+                                <th>Clip</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FileGdb</td>
+                                <td>8.4</td>
+                                <td>46.4</td>
+                                <td>14.1</td>
+                                <td>7.8</td>
+                                <td>11.4</td>
+                                <td>23.4</td>
+                            <tr>
+                            <tr>
+                                <td><strong>Sqlite</strong></td>
+                                <td><strong>5.2</strong></td>
+                                <td><strong>1125.9</strong></td>
+                                <td><strong>114.7</strong></td>
+                                <td><strong>8.4</strong></td>
+                                <td><strong>8.5</strong></td>
+                                <td><strong>38.3</strong></td>
+                            <tr>
+                      </tbody>
+                   </table>
 					</section>					
 					<section>
 						<h2>Spatialite</h2>
+                         <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Creation</th>
+                                <th>Loading Points</th>
+                                <th>Loading Lines</th>
+                                <th>Loading Polygons</th>
+                                <th>Select By Attributes</th>
+                                <th>Clip</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FileGdb</td>
+                                <td>8.4</td>
+                                <td>46.4</td>
+                                <td>14.1</td>
+                                <td>7.8</td>
+                                <td>11.4</td>
+                                <td>23.4</td>
+                            <tr>
+                            <tr>
+                                <td>Sqlite</td>
+                                <td>5.2</td>
+                                <td>1125.9</td>
+                                <td>114.7</td>
+                                <td>8.4</td>
+                                <td>8.5</td>
+                                <td>38.3</td>
+                            <tr>
+                                <tr>
+                                <td><strong>Spatialite</strong></td>
+                                <td><strong>8.7</strong></td>
+                                <td><strong>1200.8</strong></td>
+                                <td><strong>158.5</strong></td>
+                                <td><strong>7.6</strong></td>
+                                <td><strong>8.5</strong></td>
+                                <td><strong>38</strong></td>
+                            <tr>
+                      </tbody>
+                   </table>
 					</section>
 				</section>
 				<section>
